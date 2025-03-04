@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRncto5507EJ762PKXJocyFFJd2WsC1SIr2bw&s');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.calculator {
+    background-color: rgb(97, 99, 197);
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#display {
+    width: 95%;
+    height: 45px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    font-weight: bold;
+    color: black;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 23px;
+    justify-content: center;
+
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 5px;
+}
+.equal{
+    width: 135px;
+    background-color: orange;
+    border-radius: 6px;
+    grid-column: span 2;
+    height: 60px;
+
+}
+.ac{
+    background-color: orange
+}
+.del{
+    background-color: orange;
+}
+.percentage{
+    background-color: orange;
+}
+.divide{
+    background-color: orange;
+}
+.star{
+    background-color: orange;
+}
+.min{
+    background-color: orange;
+}
+.plus{
+    background-color: orange;
+}
+button:active {
+    background-color: lightgray;
+}
